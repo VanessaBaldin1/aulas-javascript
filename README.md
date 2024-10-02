@@ -38,4 +38,6 @@ Arrays são estruturas de dados **indexados**, também conhecidos como **vetores
 
 Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/índice do array.
 
+**Obs.:** a contagem de elementos do array **sempre inicia em zero**
+
 
