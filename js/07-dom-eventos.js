@@ -39,3 +39,11 @@ for(let link of links){
 /* versão 2 (antiga, vale para atributos nativos do HTML)
 link.target = "_blank";
 */
+
+/* Manipulando Eventos */
+const ex1 = document.querySelector("#exemplo01");
+const msg = document.querySelector("#mensagem");
+
+ex1.addEventListener("click", function(){
+    msg.innerHTML = "Olá 🌹";
+});

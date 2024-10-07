@@ -116,3 +116,4 @@ for (const item of clientes) {
     console.log(`Nome: ${item.nome}, Idenficador: ${item.identificador}`);
 }
 
+
