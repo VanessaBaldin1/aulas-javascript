@@ -73,3 +73,10 @@ São estruturas/comandos que permitem a execução repetidas vezes de uma ou mai
 
 A quantidade vezes que o loop será executado dependerá de alguma lógica ou condição definida pelo programador ou pelo sistema/aplicação. Também é comum que, para que o loop pare de executar, seja definida uma variável de controle de repetição.
 
+**Funções de acesso e manupulação do DOM**
+
+- **querySelector()** é uma função para selecionar um único elemento na página(DOM).
+
+- **querySelectorAll()** é uma função para selecionar VÁRIOS elementos na página (DOM).
+
+No dois casos, a seleção é feita usando seletores comuns, ao que fazemos no CSS.
