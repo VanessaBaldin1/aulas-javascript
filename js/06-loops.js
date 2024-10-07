@@ -101,14 +101,18 @@ const clientes = [
     }
 ]
 
-
-
-
 /*2) Faça um loop ( qualquer um dos que vimos) e mostre no console os dados de cada cliente conforme a seguir
 - cliente: Goku, id: 1
 - Cliente: Naruto, id:2
 - Cliente: Shiryu, id:3 */
 
-for (const identificador of clientes) {
-    console.log(identificador);
+for (const cliente of clientes) {
+
+    console.log(cliente);
+
 }
+
+for (const item of clientes) {
+    console.log(`Nome: ${item.nome}, Idenficador: ${item.identificador}`);
+}
+
